@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.form-group{
+    border: 1px solid black;
+    padding: 1em;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+select {
+    outline: none;
+  // A reset of styles, including removing the default dropdown arrow
+  appearance: none;
+  // Additional resets for further consistency
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+select::-ms-expand {
+  display: none;
+}
+.select {
+  border: 1px solid black;
+  padding: 1em;
+  margin: 5px;
+  display: flex;
+
+  width: 100%;
+  min-width: 15ch;
+//   max-width: 30ch;
+  border: 1px solid var(--secondary);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+.label{
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+}

@@ -1,0 +1,105 @@
+{
+    "massas":[
+        {   
+            "id":"baunilha",
+            "name":"massas",
+            "label":"baunilha"
+        },
+        {   
+            "id":"chocolate",
+            "name":"massas",
+            "label":"chocolate"
+        }
+    ],
+    "peso":[
+        {
+            "value":"1",
+            "label":"1 kg"
+        },
+        {
+            "value":"1.5",
+            "label":"1.5 kg"
+        },
+        {
+            "value":"2.0",
+            "label":"2.0 kg"
+        },
+        {
+            "value":"2.5",
+            "label":"2.5 kg"
+        },
+        {
+            "value":"3.0",
+            "label":"3.0 kg"
+        },
+        {
+            "value":"4.0",
+            "label":"4.0 kg"
+        },
+        {
+            "value":"5.0",
+            "label":"5.0 kg"
+        }
+    ]
+    ,
+    "cobertura":[
+        {   
+            "id":"chantilly",
+            "name":"cobertura",
+            "label":"chantilly",
+            "cashValue": "57.00"
+        },
+        {
+            "id":"chantininho",
+            "name":"cobertura",
+            "label":"chantininho",
+            "cashValue": "62.00"
+        }
+    ],
+    "recheios":[
+        {
+            "value":"mousse-ninho-abacaxi",
+            "label":"mousse de leite ninho / abacaxi"
+        },
+        {
+            "value":"mousse-ninho-gotas-brigadeiro",
+            "label":"mousse de leite ninho com gotas de brigadeiro"
+        },
+        {
+            "value":"mousse-ninho-morango. (acréscimo de 4.00 por quilo)",
+            "label":"mousse de leite ninho com morango. (acréscimo de 4.00 por quilo)"
+        },
+        {
+            "value":"mousse-ninho-gostas-cocadas",
+            "label":"mousse de leite ninho gostas de cocadas"
+        },
+        {
+            "value":"mousse-ninho-ouro-branco",
+            "label":"mousse de leite ninho com ouro branco"
+        },
+        {
+            "value":"mousse-ninho--sonho-de-valsa",
+            "label":"mousse de leite ninho com sonho de valsa"
+        },
+        {
+            "value":"mousse-maracujá",
+            "label":"mousse de maracujá"
+        },
+        {
+            "value":"mousse-ovomaltine",
+            "label":"mousse de ovomaltine"
+        },
+        {
+            "value":"mousse-chocolate",
+            "label":"mousse de chocolate"
+        },
+        {
+            "value":"brigadeiro-ninho ",
+            "label":"brigadeiro de leite ninho "
+        },
+        {
+            "value":"cocada-cremosa",
+            "label":"cocada cremosa"
+        }
+    ]
+}

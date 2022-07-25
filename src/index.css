@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root{
+  --primary: #8dcdd6;
+  --primary-light: #bfffff;
+  --primary-dark: #5c9ca5;
+  --secondary: #ffaed9;
+  --secondary-light: #ffe1ff;
+  --secondary-dark: #cb7ea8;
+  --branco: #ffffff;
+  --font-primary: 'Lobster', cursive;
+  --font-secondary: 'Righteous', cursive;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +24,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
 }
