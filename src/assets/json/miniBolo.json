@@ -1,4 +1,16 @@
 {
+  "massas": [
+    {
+      "id": "baunilha",
+      "name": "massas",
+      "label": "baunilha"
+    },
+    {
+      "id": "chocolate",
+      "name": "massas",
+      "label": "chocolate"
+    }
+  ],
   "cobertura": [
     {
       "id": "chantilly",
@@ -13,9 +25,9 @@
   ],
   "chantilly": [
     {
-      "id": "mine",
+      "id": "mini",
       "name": "chantilly",
-      "label": "mine 500g (10cm) 34,00"
+      "label": "mini 500g (10cm) 34,00"
     },
     {
       "id": "baby",
@@ -25,9 +37,9 @@
   ],
   "chantininho": [
     {
-      "id": "mine",
+      "id": "mini",
       "name": "chantilly",
-      "label": "mine 500g (10cm) 36.00"
+      "label": "mini 500g (10cm) 36.00"
     },
     {
       "id": "baby",
@@ -35,42 +47,42 @@
       "label": "Baby 800 (11 cm) 49,00"
     }
   ],
-  "recheios":[
+  "recheios": [
     {
-        "value":"mousse-ninho-abacaxi",
-        "label":"mousse de leite ninho / abacaxi"
+      "value": "mousse-ninho-abacaxi",
+      "label": "mousse de leite ninho / abacaxi"
     },
     {
-        "value":"mousse-ninho-gotas-brigadeiro",
-        "label":"mousse de leite ninho com gotas de brigadeiro"
+      "value": "mousse-ninho-gotas-brigadeiro",
+      "label": "mousse de leite ninho com gotas de brigadeiro"
     },
     {
-        "value":"mousse-ninho-morango. (acréscimo de 4.00 por quilo)",
-        "label":"mousse de leite ninho com morango. (acréscimo de 4.00 por quilo)"
+      "value": "mousse-ninho-morango. (acréscimo de 4.00 por quilo)",
+      "label": "mousse de leite ninho com morango. (acréscimo de 4.00 por quilo)"
     },
     {
-        "value":"mousse-ninho-gostas-cocadas",
-        "label":"mousse de leite ninho gostas de cocadas"
+      "value": "mousse-ninho-gostas-cocadas",
+      "label": "mousse de leite ninho gostas de cocadas"
     },
     {
-        "value":"mousse-ninho-ouro-branco",
-        "label":"mousse de leite ninho com ouro branco"
+      "value": "mousse-ninho-ouro-branco",
+      "label": "mousse de leite ninho com ouro branco"
     },
     {
-        "value":"mousse-ninho--sonho-de-valsa",
-        "label":"mousse de leite ninho com sonho de valsa"
+      "value": "mousse-ninho--sonho-de-valsa",
+      "label": "mousse de leite ninho com sonho de valsa"
     },
     {
-        "value":"mousse-maracujá",
-        "label":"mousse de maracujá"
+      "value": "mousse-maracujá",
+      "label": "mousse de maracujá"
     },
     {
-        "value":"mousse-ovomaltine",
-        "label":"mousse de ovomaltine"
+      "value": "mousse-ovomaltine",
+      "label": "mousse de ovomaltine"
     },
     {
-        "value":"mousse-chocolate",
-        "label":"mousse de chocolate"
+      "value": "mousse-chocolate",
+      "label": "mousse de chocolate"
     }
-]
+  ]
 }

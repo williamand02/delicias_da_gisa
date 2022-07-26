@@ -14,6 +14,7 @@ function Select({ valor, setValor, info, label }: Props) {
       <label className={styles.label} htmlFor={label}>{label}</label>
       <div className={styles.select}>
         <select name="select" id={label} onChange={(evento) => setValor(evento.target.value)}>
+          <option value="" data-default disabled selected></option>
           {info.map((item: { value: string; label: string }) => {
             return <option value={item.value}>{item.label}</option>;
           })}

@@ -5,6 +5,7 @@ type Props = {
   valor: any;
   setValor: any;
   info: any;
+  inline?: boolean;
 };
 type params = {
   id: string | undefined;
@@ -12,11 +13,11 @@ type params = {
   label: string;
 };
 
-function Input({ valor, setValor, type, info = [] }: Props) {
+function Input({ valor, setValor, type, info = [],inline = true}: Props) {
   return (
     <>
       {type === "radio" && (
-        <div className={styles["form-group"]}>
+        <div className={inline ? styles["form-group"]:styles["form-group-inline"]}>
           {info.map((item: params) => {
             return (
               <>
@@ -27,6 +28,7 @@ function Input({ valor, setValor, type, info = [] }: Props) {
                     type={type}
                     name={item.name}
                     value={item.label}
+                    required={true}
                     onChange={(evento) => setValor(evento.target.value)}
                   />
                   <span className={styles.checkmark}></span>

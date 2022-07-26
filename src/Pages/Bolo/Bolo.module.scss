@@ -3,3 +3,51 @@
   text-align: initial;
   margin: 0 5px;
 }
+.form {
+  text-align: center;
+}
+.button {
+    background-color: var(--secondary);
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgb(0 0 0 / 62%);
+    color: #272626;
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid var(--secondary-dark);
+    display: inline-block;
+    text-decoration: none;
+  
+  &:active {
+    background-color: var(--secondary-dark);
+    box-shadow: 2px 2px 4px #0000009F inset;
+  }
+}
+.buttonDisabled{
+  background-color: var(--secondary);
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px rgb(0 0 0 / 62%);
+  color: #272626;
+  cursor: not-allowed;
+  font-size: 1.25rem;
+  padding: 10px;
+  width: 150px;
+  border: 1px solid var(--secondary-dark);
+  display: inline-block;
+  text-decoration: none;
+  opacity: .5;
+
+// &:active {
+//   background-color: var(--secondary-dark);
+//   box-shadow: 2px 2px 4px #0000009F inset;
+// }
+}
+@media screen and (min-width: 1280px) {
+  .button {
+    grid-column-start: span 2;
+    justify-self: center;
+    width: 200px;
+    font-size: 2.25rem;
+  }
+}

@@ -1,9 +1,17 @@
 
 .form-group{
-    border: 1px solid black;
-    padding: 1em;
-    margin: 5px;
-    display: flex;
+  border: 1px solid black;
+  padding: 1em;
+  margin: 5px;
+  display: flex;
+}
+.form-group-inline{
+  border: 1px solid black;
+  padding: 1em;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
 }
 
 
