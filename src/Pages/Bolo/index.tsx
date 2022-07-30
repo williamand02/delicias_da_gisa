@@ -23,7 +23,7 @@ function Bolo() {
     alert("Enviar Bolo")
   }
   function validaFormulario(){
-    return false;
+    return true;
   }
   function mensagem(){
     const lineFeed ="%0A";
